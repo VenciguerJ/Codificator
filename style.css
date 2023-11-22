@@ -22,16 +22,18 @@ textarea, #output{
     width: 60%;
     height: 60px;
     border: solid 1px;
+    padding: 10px 0px 0px 10px;
+    box-sizing: border-box;
 }
 textarea::placeholder{
     text-align: center;
 }
 
-img{
-   height: 200px;
-   border-radius: 10px;
-   float: right;
-   margin-right: 10%;
+#subtitle{
+    width: 60%;
+    display: block;
+    margin: 40px auto 0;
+    color: aliceblue;
 }
 
 .icons{
@@ -41,14 +43,14 @@ img{
     justify-content: space-between;
 }
 
-.icons button{
-    width: 20%;
+.icons button
+{
+    max-width: 170px;
     height: 30px;
     border-radius: 5px;
     border: solid 2px aliceblue;
     font-family: "Space Mono";
     overflow: hidden;
-    
 }
 .special-button{
     width: 15%;
@@ -63,6 +65,8 @@ img{
 }
 
 #output{
+    box-sizing: border-box;
+    padding: 10px 0px 0px 10px;
     margin-top: 10px;
     border: white solid 1px;
     height: 75px;
